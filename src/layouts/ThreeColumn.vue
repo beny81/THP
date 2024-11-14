@@ -22,17 +22,16 @@ export default {
 <template>
   <div class="container-fluid  ">
     <div class="row pt-0">
-    <header class="  col">
-      <AppLogo />
+    <header class="   col-3">
       <AppNavigation />
       <UserProfil />
     </header>
 
-    <main class="mh-100 border border-white p-2 mb-2 border-opacity-25 text-center col-6">
+    <main class="mh-100 border border-white p-2 mb-2 border-opacity-25 text-center col-5">
       <slot />
     </main>
 
-    <aside class=" col ">
+    <aside class=" col-4 text-center">
       <SearchBar />
       <slot name="aside" />
       <AppFooter />

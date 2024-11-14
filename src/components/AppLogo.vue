@@ -3,7 +3,16 @@
 </script>
 
 <template >
-    <div class="pt-1">
-    <a class=" link-light link-underline-opacity-0 link-opacity-10-hover" href="#"> <h3>THP</h3></a>
-    </div>
+    
+      <main class="mt-3">
+        <router-link class="my-link link-light" to="/">
+          <svg width="50" height="50">
+      <!-- Add the image -->
+       <!-- <slot /> -->
+      <!-- <image href={{iconLink}} x="0" y="0" width="30" height="20" /> -->
+      <image class="img-fluid" href="../assets/appIcons/thp.png"  x="0" y="0" width="50" height="50"/>
+
+    </svg>
+        </router-link>
+      </main>
 </template>

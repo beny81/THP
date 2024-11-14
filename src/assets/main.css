@@ -4,3 +4,13 @@ body {
   color: whitesmoke;
  
 }
+.my-link {
+  text-decoration: none;
+}
+.hoverLink{
+  color :#fff;
+  background-color: transparent;
+}
+.hoverLink:hover{
+  background-color: rgba(255,255, 255, 0.1);
+}
